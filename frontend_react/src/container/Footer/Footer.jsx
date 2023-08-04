@@ -38,22 +38,22 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className='head-text'>Grab some boba & chat with me</h2>
+      <h2 className='head-text'>Send me a message</h2>
 
       {/* cards */}
-      <div className='app__footer-cards'>
-        {/* email info */}
+      {/* <div className='app__footer-cards'>
+        
         <div className='app__footer-card'>
           <img src={images.email2} alt="email" />
           <a href="mailto:luisitocanlas@gmail.com" className='p-text'>luisitocanlas@gmail.com</a>
         </div>
 
-        {/* mobile number info */}
+        
         <div className='app__footer-card'>
           <img src={images.mobile2} alt="mobile" />
           <a href="tel: +1 (818) 747-6805" className='p-text'>+1 (818) 747-6805</a>
         </div>
-      </div>
+      </div> */}
 
       {/* contact form */}
       {!isFormSubmitted ? 
