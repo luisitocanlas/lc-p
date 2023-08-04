@@ -5,7 +5,7 @@ const NavigationDots = ({ active }) => {
     <div className='app__navigation'>
         
         {/* Array of items for the navbar */}
-        {['home', 'about', 'work', 'skills', 'testimonial', 'contact'].map((item, index) => (
+        {['home', 'work', 'skills', 'contact'].map((item, index) => (
 
             // Create each list item as an anchor
             <a 
