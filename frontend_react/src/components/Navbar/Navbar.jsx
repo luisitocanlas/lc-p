@@ -23,7 +23,7 @@ const Navbar = () => {
       <ul className='app__navbar-links'>
 
         {/* Array of items for the navbar */}
-        {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+        {['home', 'work', 'skills', 'contact'].map((item) => (
 
           // Create each list item as an anchor
           <li className='app__flex p-text' key={`link=${item}`}>
@@ -53,7 +53,7 @@ const Navbar = () => {
               <ul>
 
                 {/* Array of items for the navbar */}
-                {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+                {['home', 'work', 'skills', 'contact'].map((item) => (
 
                 // Create each list item as an anchor
                   <li key={item}>
