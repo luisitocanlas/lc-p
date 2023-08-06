@@ -46,15 +46,14 @@
         width: 90px;
         height: 90px;
         border-radius: 50%;
-        background-color: #fff;
-
+        background-color: var(--onyx-color); //original: #fff
         img {
             width: 50%;
             height: 50%;
         }
 
         &:hover {
-            box-shadow: 0 0 25px #fef4f5;
+            box-shadow: 0 0 25px #6C757D; //original: #fef4f5
         }
 
         //for extra large devices
@@ -124,7 +123,7 @@
         
         p {
             font-weight: 400;
-            color: var(--gray-color);
+            color: var(--platinum-color); //original: --gray-color
             margin-top: 5px;
         }
     }
@@ -135,7 +134,7 @@
 
     p {
         font-weight: 800;
-        color: var(--secondary-color)
+        color: var(--secondary-color) 
     }
 
     // for mobile devices
@@ -146,11 +145,11 @@
 
 .skills-tooltip {
     max-width: 300px !important;
-    background-color: var(--white-color) !important;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1) !important;
+    background-color: var(--onyx-color) !important;  //original: --white-color
+    box-shadow: 0 0 25px rgba(73, 80, 87, 0.1) !important;  //original: 0, 0, 0
     border-radius: 5px !important;
     padding: 1rem !important;
-    color: var(--gray-color) !important;
+    color: var(--platinum-color) !important; // original: --gray-color
     text-align: center !important;
     line-height: 1.5 !important;
     opacity: 1 !important;

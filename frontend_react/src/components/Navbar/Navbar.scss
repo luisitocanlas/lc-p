@@ -7,10 +7,10 @@
     align-items: center;
     
     padding: 1rem 2rem;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(37, 38, 39, 0.25); // original: 255, 255, 255
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255,255,255,0.18);  
+    border: 1px solid rgba(37, 38, 39,0.18);  // original: 255, 255, 255
     position: fixed;
     z-index: 2;
 }
@@ -63,7 +63,7 @@
 
         // nested anchor tag
         a {
-            color: var(--gray-color);
+            color: var(--platinum-color); // original: --gray-color
             text-decoration: none;
             flex-direction: column;
 
@@ -108,7 +108,7 @@
     svg {
         width: 70%;
         height: 70%;
-        color: var(--white-color);
+        color: var(--eerieblack-color); // original: --white-color
     }
 
     div {
@@ -129,11 +129,11 @@
         flex-direction: column;
 
         // background: url('../../assets/bgWhite.png');
-        background-color: var(--white-color);
+        background-color: var(--eerieblack-color); // original: --white-color
         background-size: cover;
         background-repeat: repeat;
 
-        box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+        box-shadow: 0 0 20px rgba(211, 212, 217, 0.15); // original: 168, 168, 168
 
         // nested svg
         svg {
@@ -159,7 +159,7 @@
                 margin: 1rem;
 
                 a {
-                    color: var(--gray-color);
+                    color: var(--platinum-color); // original: --gray-color
                     text-decoration: none;
                     font-size: 1rem;
                     text-transform: uppercase;
